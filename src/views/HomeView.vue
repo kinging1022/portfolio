@@ -26,7 +26,7 @@
           </p>
           <div class="flex gap-4 justify-center md:justify-start">
             <a
-              href="/pdf/cv.pdf"
+              href="/portfolio/pdf/cv.pdf"
               download
               class="px-6 py-2 border border-blue-500 text-white rounded-full hover:bg-blue-500/10 transition-colors flex items-center gap-2"
             >
