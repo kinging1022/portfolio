@@ -15,24 +15,26 @@
           {{ tech }}
         </span>
       </div>
-      <div class="flex gap-4">
+      <div class="flex gap-4 items-center">
         <a
           v-if="githubUrl"
           :href="githubUrl"
           target="_blank"
           rel="noopener noreferrer"
           class="text-white hover:text-blue-500 transition-colors"
+          aria-label="View source on GitHub"
         >
-          <Github :size="20" />
+          <Github :size="24" />
         </a>
         <a
           v-if="liveUrl"
           :href="liveUrl"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-white hover:text-blue-500 transition-colors"
+          class="flex items-center gap-1 px-3 py-1 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors"
         >
-          <ExternalLink :size="20" />
+          <span>Demo</span>
+          <ExternalLink :size="16" />
         </a>
       </div>
     </div>
@@ -63,7 +65,7 @@ export default {
 
 <style scoped>
 .bg-gray-800:hover {
-  transform: scale(1.02);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 </style>
+

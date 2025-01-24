@@ -115,7 +115,7 @@ export default {
           ],
           technologies: ["Python", "Django", "Beautiful soup", "Gemini Ai", "Spotify Web Api", "Vue.js"],
           githubUrl: "https://github.com/kinging1022/playlistpilot",
-          liveUrl: "#",
+          liveUrl: "https://drive.google.com/file/d/1Bo9lr0Rjh4coFiyddJsDQdGugzl-mD-1/view",
         },
         {
           title: "Medicare app",
@@ -128,7 +128,7 @@ export default {
           ],
           technologies: ["Restframework", "Django", "Celery", 'Vue', 'websockets', 'stripe'],
           githubUrl: "https://github.com/kinging1022/medicareV2",
-          liveUrl: "#",
+          liveUrl: "https://drive.google.com/file/d/1DX1P9RRjyK_NdYqZFXrJ7YqPfHAYqQZK/view?usp=drive_link",
         },
         {
           title: "E-commerce Platform",
