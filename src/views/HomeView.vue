@@ -118,17 +118,15 @@ export default {
           liveUrl: "https://drive.google.com/file/d/1Bo9lr0Rjh4coFiyddJsDQdGugzl-mD-1/view",
         },
         {
-          title: "Medicare app",
-          description: "An online hospital platform designed to replicate real-life consultations between patients and doctors. Patients can book appointments, chat with doctors, and make payments for consultations. Doctors can prescribe medications, which are automatically added to the patient's profile. Additionally, patients can set reminders for their medications, ensuring timely adherence to their treatment plan.",
+          title: "Mediconnect app",
+          description: 'MediConnect is a web-based telemedicine platform that connects patients with doctors for real-time consultations via chat and video calls. It uses AI-powered doctor matching, vector search, and WebSockets for real-time interactions.',
           images: [
-            "./images/medicare1.png",
-            "./images/medicare2.png",
-            "./images/medicare3.png",
-            "./images/medicare4.png",
+            "./images/mediconnect.png",
+            
           ],
-          technologies: ["Restframework", "Django", "Celery", 'Vue', 'websockets', 'stripe'],
-          githubUrl: "https://github.com/kinging1022/medicareV2",
-          liveUrl: "https://drive.google.com/file/d/1DX1P9RRjyK_NdYqZFXrJ7YqPfHAYqQZK/view?usp=drive_link",
+          technologies: ["Restframework", "Django", "Celery", 'Vue', 'websockets','FAISS', ' Sentence Transformer' ],
+          githubUrl: "https://github.com/kinging1022/mediconnect",
+          liveUrl: 'https://drive.google.com/file/d/1tS2QFpqr4nLFbg_DEP7Qxgx-6-AZM2z3/view',
         },
         {
           title: "E-commerce Platform",
