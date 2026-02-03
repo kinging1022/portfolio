@@ -43,7 +43,7 @@
           </div>
           <div class="flex gap-6 mt-8 justify-center md:justify-start">
             <a
-              href="mailto:emmanuelemmy0906@gmail.com"
+              href="mailto:emmanueligho0906@gmail.com"
               class="text-white hover:text-blue-500 transition-colors"
               aria-label="Email"
             >
